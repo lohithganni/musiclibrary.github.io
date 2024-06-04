@@ -1,0 +1,29 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.titles p {
+  color: grey;
+  font-size: 50px;
+  padding-top: 10px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+.text h1 {
+  font-size: 55px;
+  margin-bottom: 3px;
+}
+.text h2 {
+  font-size: 30px;
+  color: rgb(140, 136, 136);
+  margin-top: 0px;
+}
+.text {
+  width: 65%;
+}
+.text p {
+  font-size: 18px;
+  color: #988e8e;
+}

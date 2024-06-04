@@ -1,0 +1,90 @@
+.z {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.a {
+  width: 450px;
+  height: 600px;
+  position: relative;
+  flex:0 0 20%;
+}
+.a img {
+  width: 300px;
+  padding-left: 10px;
+  padding-top: 10px;
+  transition: 0.15s;
+}
+.a img:hover {
+  padding-left: 0px;
+  padding-top: 0px;
+  width: 320px;
+  border-radius: 10px;
+}
+.know-more {
+  display: none;
+  position: absolute;
+  transition: 0.15s;
+}
+.know-more h1 {
+  font-family: Garamond;
+  color: grey;
+  font-size: 32px;
+  padding-left: 10px;
+  padding-top:10px;
+  
+}
+.know-more p {
+  font-size: 16px;
+  padding-top:5px;
+  padding-left: 12px;
+  padding-right:10px;
+  color: rgb(118, 117, 117);
+  line-height: 135%;
+}
+.a img:active + .know-more {
+  display: block;
+  top: -10px;
+  left: -10px;
+  width: 360px;
+  height: 330px;
+  background-color: rgb(231, 221, 221);
+  border-radius: 15px;
+  z-index:4;
+}
+.b p {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0px;
+}
+.c {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.c p {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.t p {
+  color: grey;
+  font-size: 18px;
+  padding-left: 15px;
+}
+.t {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.t h1 {
+  font-size: 55px;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
